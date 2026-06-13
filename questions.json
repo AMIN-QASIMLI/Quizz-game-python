@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Python-da funksiya yaratmaq üçün hansı açar sözdən istifadə olunur?",
+    "options": ["func", "define", "def", "function"],
+    "correct_answer": "def"
+  },
+  {
+    "id": 2,
+    "question": "Siyahının (List) uzunluğunu tapmaq üçün hansı funksiyadan istifadə edilir?",
+    "options": ["size()", "length()", "len()", "count()"],
+    "correct_answer": "len()"
+  },
+  {
+    "id": 3,
+    "question": "RESTful API-də yeni bir resurs yaratmaq üçün adətən hansı HTTP metodu istifadə olunur?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "correct_answer": "POST"
+  },
+  {
+    "id": 4,
+    "question": "Aşağıdakılardan hansı dəyişən adı kimi istifadə edilə bilməz?",
+    "options": ["my_var", "1st_variable", "_hidden", "userAge"],
+    "correct_answer": "1st_variable"
+  },
+  {
+    "id": 5,
+    "question": "Python-da xətaları idarə etmək (catch exception) üçün hansı blokdan istifadə olunur?",
+    "options": ["try-except", "try-catch", "do-while", "if-else"],
+    "correct_answer": "try-except"
+  },
+  {
+    "id": 6,
+    "question": "Set (çoxluq) ilə List (siyahı) arasındakı əsas fərq nədir?",
+    "options": ["Set dəyişdirilə bilməz", "List ancaq rəqəmləri saxlayır", "Set-də dublikat (təkrarlanan) elementlər ola bilməz", "Fərq yoxdur"],
+    "correct_answer": "Set-də dublikat (təkrarlanan) elementlər ola bilməz"
+  },
+  {
+    "id": 7,
+    "question": "Sözlüklərdə (Dictionary) bütün açar-dəyər cütlərini əldə etmək üçün hansı metod istifadə olunur?",
+    "options": [".keys()", ".values()", ".items()", ".get()"],
+    "correct_answer": ".items()"
+  },
+  {
+    "id": 8,
+    "question": "Verilənlər bazası ilə işləyərkən ORM nəyin qısaltmasıdır?",
+    "options": ["Object-Relational Mapping", "Object-Record Model", "Online Relational Management", "Object-Resource Method"],
+    "correct_answer": "Object-Relational Mapping"
+  },
+  {
+    "id": 9,
+    "question": "'break' açar sözünün vəzifəsi nədir?",
+    "options": ["Proqramı tamamilə bağlayır", "Dövrü (loop) dərhal dayandırır və ondan çıxır", "Növbəti iterasiyaya keçir", "Xəta qaytarır"],
+    "correct_answer": "Dövrü (loop) dərhal dayandırır və ondan çıxır"
+  },
+  {
+    "id": 10,
+    "question": "Python-da mövcud faylı yalnız oxumaq rejimi ilə açmaq üçün hansı simvoldan istifadə edilir?",
+    "options": ["w", "a", "r", "x"],
+    "correct_answer": "r"
+  },
+  {
+    "id": 11,
+    "question": "Şərt və ya dövr bloklarında sintaksis xətası almamaq üçün heç bir əməliyyat etmədən keçmək üçün nə yazılır?",
+    "options": ["skip", "continue", "ignore", "pass"],
+    "correct_answer": "pass"
+  },
+  {
+    "id": 12,
+    "question": "Obyekt yönümlü proqramlaşdırmada (OOP) '_init_' metodunun rolu nədir?",
+    "options": ["Obyekti silir", "Obyektin konstruktorudur, ilkin dəyərləri təyin edir", "Sinifi (class) başqa fayla kopyalayır", "Dəyişənləri gizlədir"],
+    "correct_answer": "Obyektin konstruktorudur, ilkin dəyərləri təyin edir"
+  },
+  {
+    "id": 13,
+    "question": "Aşağıdakılardan hansı Python məlumat tipi (data type) deyil?",
+    "options": ["int", "float", "char", "bool"],
+    "correct_answer": "char"
+  },
+  {
+    "id": 14,
+    "question": "İki dəyərin bərabərliyini yoxlamaq üçün hansı operatordan istifadə olunur?",
+    "options": ["=", "==", "===", "!="],
+    "correct_answer": "=="
+  },
+  {
+    "id": 15,
+    "question": "Listin sonuna yeni bir element əlavə etmək üçün hansı metod istifadə olunur?",
+    "options": [".insert()", ".add()", ".append()", ".extend()"],
+    "correct_answer": ".append()"
+  },
+  {
+    "id": 16,
+    "question": "Mövcud sinifdən (class) yeni bir sinif yaratmaq prinsipi OOP-də necə adlanır?",
+    "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"],
+    "correct_answer": "Inheritance"
+  },
+  {
+    "id": 17,
+    "question": "API-dən gələn JSON məlumatını Python sözlüyünə (dictionary) çevirmək üçün hansı metoddan istifadə olunur?",
+    "options": ["json.load() / json.loads()", "json.dump()", "json.parse()", "json.read()"],
+    "correct_answer": "json.load() / json.loads()"
+  },
+  {
+    "id": 18,
+    "question": "Funksiyanın orijinal kodunu dəyişmədən onun davranışını genişləndirmək üçün Python-da nədən istifadə olunur?",
+    "options": ["Generators", "Decorators", "Iterators", "Modules"],
+    "correct_answer": "Decorators"
+  },
+  {
+    "id": 19,
+    "question": "Hansı struktur LIFO (Last In, First Out) prinsipi ilə işləyir?",
+    "options": ["Queue", "Stack", "Array", "Tree"],
+    "correct_answer": "Stack"
+  },
+  {
+    "id": 20,
+    "question": "Terminal vasitəsilə Python faylını (məsələn main.py) necə işə salmaq olar?",
+    "options": ["run main.py", "execute main.py", "python main.py", "start main.py"],
+    "correct_answer": "python main.py"
+  }
+]
